@@ -1,0 +1,19 @@
+body{
+  font-family: Lucida Grande;
+}
+#content{
+  padding: 1em;
+  border: 4px solid #DFE2E5;
+}
+label {
+  display: block;
+  width: 20%;
+}
+.field{
+  margin-bottom: 10px;
+}
+.hint{
+  font-size: 90%;
+  font-style: italic;
+}
+

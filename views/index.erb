@@ -1,0 +1,53 @@
+<h1>External submit form</h1>
+<div id='content'>
+  <form accept-charset="UTF-8" action="http://roxanne.heroku.com/register" class="member_new" id="member_new" method="post">
+    <input name="registrer_token" type="hidden" value="totonikapozobazopozujimaduzujejapumatero"/>
+    <input name="callback" type="hidden" value=""/>
+
+    <div class='field'>
+      <label for="member_Company Name">Company name</label>
+      <input id="member_company_name" name="member[company_name]" size="30" type="text" />
+      <div class='hint'>Your company name, project name, or something else unique to you. You can change this later.</div>
+    </div>
+
+    <div class='field'>
+      <label for="member_name">Name</label>
+      <input id="member_name" name="member[name]" size="30" type="text" />
+      <div class='hint'>Your name, so we know what do you call if you ever need anything.</div>
+    </div>
+
+    <div class='field'>
+      <label for="member_title">Title</label>
+      <input id="member_title" name="member[title]" size="30" type="text" />
+      <div class='hint'>Your title, if you don't have one, feel free give yourself Chief Mobile Guru.</div>
+    </div>
+
+    <div class='field'>
+      <label for="member_Phone number">Phone number</label>
+      <input id="member_phone" name="member[phone]" size="30" type="text" />
+      <div class='hint'>A phone number we can reach you at if we need to call you with an update.</div>
+    </div>
+
+    <div class='field'>
+      <label for="member_email">Email</label>
+      <input id="member_email" name="member[email]" size="30" type="text" value="" />
+      <div class='hint'>This is used as your login. We'll also send you a confirmation email before fully activating your account.</div>
+    </div>
+
+    <div class='field'>
+      <label for="member_password">Password</label>
+      <input id="member_password" name="member[password]" size="30" type="password" />
+      <div class='hint'>6 characters or longer with numbers and symbols is safest.</div>
+    </div>
+
+    <div class='field'>
+      <label for="member_Enter your password again">Enter your password again</label>
+      <input id="member_password_confirmation" name="member[password_confirmation]" size="30" type="password" />
+      <div class='hint'>For confirmation.</div>
+    </div>
+
+    <input class="button" id="member_submit" name="commit" type="submit" value="submit" />
+
+  </form>
+</div>
+
